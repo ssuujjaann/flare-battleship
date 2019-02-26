@@ -8,6 +8,8 @@ There are two players in the game, and each player has a 10x10 grid. At the star
 
 Players are also provided with a console error message if they decide to place 'n' number of warships greater than the grid size (100).
 
+** Even though the location(coordinates) of the warships is usually hidden, for this exercise and ease of testing all the use cases, the location of the warships is displayed at the start once they've been deployed ** 
+
 ### Game Structure
 
 Players then take turns to provide coordinates (X and Y) used to attack the oppponents board/grid. The program checks to see if there is a Warship on those coordinates, displays a "HIT!" if there is and a "MISS!" if there isn't. In addition to that, logic has been implemented to display an additional error if a warship on the coordinates has ALREADY been hit.
