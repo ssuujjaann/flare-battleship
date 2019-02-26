@@ -1,4 +1,4 @@
-# flare-battleship
+# Flare-battleship
 
 ## Overview
 
